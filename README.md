@@ -1,6 +1,5 @@
 # EX-NO-10-Diffie-Hellman-Key-Exchange-Algorithm
-## NAME : ARUL KUMARAN S A
-## REG.N0 : 212224040030
+
 
 ## AIM:
 To Implement Diffie Hellman Key Exchange Algorithm 
@@ -43,25 +42,25 @@ int main()
     scanf("%lld", &P);
     printf("Enter the value of G (primitive root of P): ");
     scanf("%lld", &G);
-    printf("Enter private key a for ARUL: ");
+    printf("Enter private key a for VISHAL: ");
     scanf("%lld", &a);
-    printf("Enter private key b for KUMARAN: ");
+    printf("Enter private key b for RAJESH: ");
     scanf("%lld", &b);
     x = power(G, a, P);
     y = power(G, b, P);
     ka = power(y, a, P);
     kb = power(x, b, P);
-    printf("\nPublic key of ARUL: %lld", x);
-    printf("\nPublic key of KUMARAN: %lld", y);
-    printf("\n\nSecret key for ARUL: %lld", ka);
-    printf("\nSecret key for KUMARAN: %lld", kb);
+    printf("\nPublic key of VISHAL: %lld", x);
+    printf("\nPublic key of RAJESH: %lld", y);
+    printf("\n\nSecret key for VISHAL: %lld", ka);
+    printf("\nSecret key for RAJESH: %lld", kb);
 }
 ```
 
 
 
 ## Output:
-<img width="1722" height="973" alt="image" src="https://github.com/user-attachments/assets/5ec072b5-4e9e-45dc-b2c4-b002587e02fb" />
+<img width="1415" height="779" alt="image" src="https://github.com/user-attachments/assets/0077a611-91b5-4a06-b388-00ca3b814775" />
 
 
 
